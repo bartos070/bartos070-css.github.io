@@ -1,0 +1,41 @@
+p {
+    font-size: 18px;
+    color: blue;
+    background-color: yellow;
+}
+
+#selektory p {
+    background-color: green;
+}
+
+.example p {
+    font-size: 36px;
+}
+
+/* łączenie selektorów*/
+h1, h2, h3 {
+    color: red;
+}
+
+/*bezpośredni potomek*/
+.direct > p {
+    background-color: gray;
+}
+
+/*selektor bliskiego rodzeństwa*/
+h2 + h3  {
+    font-size: 28px;
+    
+}
+
+/*rodzeństwo*/
+.rodzenstwo h2 ~ h3 {
+    font-size: 40px;
+}
+
+
+
+/*selektor wykluczający*/
+.wykluczajacy p:not(.not){
+    background: gray;
+}
