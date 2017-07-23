@@ -7,6 +7,10 @@ p {
 #selektory p {
     background-color: green;
 }
+#example_id p {
+    font-size: 50px;
+    
+}
 
 .example p {
     font-size: 36px;
