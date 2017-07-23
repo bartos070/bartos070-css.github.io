@@ -39,3 +39,8 @@ h2 + h3  {
 .wykluczajacy p:not(.not){
     background: gray;
 }
+
+/*kolejny potomny*/
+#nastepny ul li:nth-child(8) {
+    background-color: violet;
+}
