@@ -44,3 +44,7 @@ h2 + h3  {
 #nastepny ul li:nth-child(8) {
     background-color: violet;
 }
+
+#nastepny ul li:nth-child(odd) {
+    background-color: azure;
+}
