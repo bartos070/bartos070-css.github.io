@@ -11,7 +11,6 @@ p {
     font-size: 50px;
     
 }
-
 .example p {
     font-size: 36px;
 }
@@ -58,4 +57,19 @@ h2 + h3  {
 }
 #nastepny ul li:nth-last-child(4n+2) {
     font-size: 26px;
+}
+
+#pozycjonowanie {
+    background-color: green;
+    height: 500px;
+}
+
+#pozycjonowanie div:nth-child(1){
+    height: 200px;
+    background-color: red;
+}
+
+#pozycjonowanie div:nth-child(2){
+    height: 200px;
+    background-color: blue;
 }
