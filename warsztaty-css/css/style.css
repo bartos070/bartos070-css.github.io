@@ -52,3 +52,6 @@ h2 + h3  {
 #nastepny ul li:nth-child(3n+3){
     background-color: aqua;
 }
+#nastepny ul li:nth-last-child(4n+2) {
+    font-size: 26px;
+}
