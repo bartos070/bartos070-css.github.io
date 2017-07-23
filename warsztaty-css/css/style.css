@@ -67,6 +67,10 @@ h2 + h3  {
 #pozycjonowanie div:nth-child(1){
     height: 200px;
     background-color: red;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left:0;
 }
 
 #pozycjonowanie div:nth-child(2){
